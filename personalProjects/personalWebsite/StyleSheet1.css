@@ -1,0 +1,202 @@
+﻿body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #34495e; /* Dark Blue Gray */
+    background: url('https://getwallpapers.com/wallpaper/full/1/6/d/491556.jpg') repeat;
+}
+
+header {
+    background-color: slategrey;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.title{}
+nav {
+    background-color: lightgrey;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+    nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        transition: color 0.3s ease; /* Smooth color transition on hover */
+    }
+
+        nav a:hover {
+           color: #34495e; 
+        }
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #34495e; /* Dark Blue Gray */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Customize links within the sections */
+section a {
+    color: #3498db; /* Blue */
+    text-decoration: underline;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+    section a:hover {
+        color: #2ecc71; /* Green on hover */
+    }
+
+/* Style for "About Me" section */
+#about {
+    background-color: #ecf0f1; /* Light Grayish Blue */
+}
+
+/* Style for "Portfolio" section */
+#portfolio {
+    background-color: #fff; /* White */
+}
+
+/* Style for "Contact" section */
+#contact {
+    background-color: #ecf0f1; /* Light Grayish Blue */
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    header, nav, section, footer {
+        padding: 10px;
+    }
+
+        nav ul li {
+            display: block;
+            margin: 10px 0;
+        }
+}
+.project {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+}
+    .project img {
+        max-width: 100%;
+        height: auto; 
+        border-radius: 5px;
+    }
+
+
+#achievements {
+    background-color: #ecf0f1; /* Light Grayish Blue */
+}
+
+.timeline {
+    position: relative;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.timeline-date {
+    background-color: #3498db; /* Blue */
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.timeline-content {
+    margin-left: 70px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for better readability on the content */
+.timeline h3 {
+    color: #333;
+}
+
+.timeline p {
+    color: #555;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+header a:hover {
+        color: #ffd700; /* Gold on hover */
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #2c3e50; /* Darker background color */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#about,
+#contact {
+    background-color: #34495e; /* Darker background color */
+}
+
+#portfolio {
+    background-color: #2c3e50; /* Darker background color */
+}
+
+/* Additional CSS styles for better readability on the darker background */
+section h2,
+section p,
+section a {
+    color: #fff; /* White text color for better readability on the darker background */
+}
+
+/* Additional styles for better visibility of links on darker backgrounds */
+#portfolio a,
+#contact a {
+    color: #ffd700; /* Gold */
+}
+
+    #portfolio a:hover,
+    #contact a:hover {
+        color: #00ff00; /* Lime green on hover */
+    }
+
+#achievements {
+    background-color: #2c3e50; /* Darker background color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
